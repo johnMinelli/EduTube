@@ -1,0 +1,214 @@
+<!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Theme customization. -->
+        <item name="colorPrimary">@color/light_youtube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_youtube_dark_color</item>
+        <item name="colorAccent">@color/light_youtube_accent_color</item>
+        <item name="colorControlActivated">@color/color_control_activated</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_youtube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_youtube_dark_color</item>
+        <item name="colorAccent">@color/light_youtube_accent_color</item>
+        <item name="colorText">@color/light_youtube_accent_color</item>
+        <item name="android:windowBackground">@color/light_background_color</item>
+        <item name="windowBackground">@color/light_background_color</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="fontFamily">@font/roboto</item>
+
+        <item name="thumbs_up">@drawable/ic_thumb_up_black_24dp</item>
+        <item name="thumbs_down">@drawable/ic_thumb_down_black_24dp</item>
+        <item name="info">@drawable/ic_info_outline_black_24dp</item>
+        <item name="bug">@drawable/ic_bug_report_black_24dp</item>
+        <item name="audio">@drawable/ic_headset_black_24dp</item>
+        <item name="download">@drawable/ic_file_download_black_24dp</item>
+        <item name="share">@drawable/ic_share_black_24dp</item>
+        <item name="cast">@drawable/ic_cast_black_24dp</item>
+        <item name="rss">@drawable/ic_rss_feed_black_24dp</item>
+        <item name="search">@drawable/ic_search_black_24dp</item>
+        <item name="close">@drawable/ic_close_black_24dp</item>
+        <item name="filter">@drawable/ic_filter_list_black_24dp</item>
+        <item name="popup">@drawable/ic_picture_in_picture_black_24dp</item>
+        <item name="expand">@drawable/ic_expand_more_black_24dp</item>
+        <item name="collapse">@drawable/ic_expand_less_black_24dp</item>
+        <item name="volume_off">@drawable/ic_volume_off_black_24dp</item>
+        <item name="palette">@drawable/ic_palette_black_24dp</item>
+        <item name="language">@drawable/ic_language_black_24dp</item>
+        <item name="history">@drawable/ic_history_black_24dp</item>
+        <item name="drag_handle">@drawable/ic_drag_handle_black_24dp</item>
+        <item name="selected">@drawable/ic_fiber_manual_record_black_24dp</item>
+        <item name="search_add">@drawable/ic_arrow_top_left_black_24dp</item>
+        <item name="options">@drawable/ic_more_vert_black_24dp</item>
+        <item name="play">@drawable/ic_play_arrow_black_24dp</item>
+        <item name="settings">@drawable/ic_settings_black_24dp</item>
+        <item name="ic_hot">@drawable/ic_whatshot_black_24dp</item>
+        <item name="ic_channel">@drawable/ic_channel_black_24dp</item>
+        <item name="ic_bookmark">@drawable/ic_bookmark_black_24dp</item>
+        <item name="ic_bookmark_border">@drawable/ic_bookmark_border_black</item>
+        <item name="ic_playlist_add">@drawable/ic_playlist_add_black_24dp</item>
+        <item name="ic_playlist_check">@drawable/ic_playlist_add_check_black_24dp</item>
+        <item name="ic_import_export">@drawable/ic_import_export_black_24dp</item>
+        <item name="ic_save">@drawable/ic_save_black_24dp</item>
+        <item name="ic_backup">@drawable/ic_backup_black_24dp</item>
+        <item name="ic_add">@drawable/ic_add_black_24dp</item>
+        <item name="ic_restore_defaults">@drawable/ic_settings_backup_restore_black_24dp</item>
+        <item name="ic_blank_page">@drawable/ic_blank_page_black_24dp</item>
+        <item name="ic_list">@drawable/ic_list_black_24dp</item>
+        <item name="ic_grid">@drawable/ic_grid_black_24dp</item>
+        <item name="ic_delete">@drawable/ic_delete_black_24dp</item>
+        <item name="ic_settings_update">@drawable/ic_settings_update_black</item>
+        <item name="ic_star">@drawable/ic_star_black</item>
+        <item name="ic_star_border">@drawable/ic_star_border_black</item>
+        <item name="ic_edit">@drawable/ic_edit_black</item>
+        <item name="ic_time">@drawable/ic_access_time_black</item>
+        <item name="ic_lock">@drawable/ic_lock_black</item>
+        <item name="ic_lock_open">@drawable/ic_lock_open_black</item>
+        <item name="ic_lock_border">@drawable/ic_lock_border_black</item>
+        <item name="ic_link">@drawable/ic_link_black</item>
+
+        <item name="separator_color">@color/light_separator_color</item>
+        <item name="contrast_background_color">@color/light_contrast_background_color</item>
+        <item name="checked_selector_drawable">@drawable/light_checked_selector</item>
+        <item name="queue_background_color">@color/light_queue_background_color</item>
+        <item name="toolbar_shadow_drawable">@drawable/toolbar_shadow_light</item>
+        <item name="selector_drawable">@drawable/light_selector</item>
+        <item name="colorControlHighlight">@color/light_ripple_color</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dark_youtube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_youtube_dark_color</item>
+        <item name="colorAccent">@color/dark_youtube_accent_color</item>
+        <item name="colorText">@color/dark_youtube_accent_color</item>
+        <item name="android:windowBackground">@color/dark_background_color</item>
+        <item name="windowBackground">@color/dark_background_color</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="fontFamily">@font/roboto</item>
+
+        <item name="thumbs_up">@drawable/ic_thumb_up_white_24dp</item>
+        <item name="thumbs_down">@drawable/ic_thumb_down_white_24dp</item>
+        <item name="audio">@drawable/ic_headset_white_24dp</item>
+        <item name="info">@drawable/ic_info_outline_white_24dp</item>
+        <item name="bug">@drawable/ic_bug_report_white_24dp</item>
+        <item name="download">@drawable/ic_file_download_white_24dp</item>
+        <item name="share">@drawable/ic_share_white_24dp</item>
+        <item name="cast">@drawable/ic_cast_white_24dp</item>
+        <item name="rss">@drawable/ic_rss_feed_white_24dp</item>
+        <item name="search">@drawable/ic_search_white_24dp</item>
+        <item name="close">@drawable/ic_close_white_24dp</item>
+        <item name="filter">@drawable/ic_filter_list_white_24dp</item>
+        <item name="popup">@drawable/ic_picture_in_picture_white_24dp</item>
+        <item name="expand">@drawable/ic_expand_more_white_24dp</item>
+        <item name="collapse">@drawable/ic_expand_less_white_24dp</item>
+        <item name="volume_off">@drawable/ic_volume_off_white_24dp</item>
+        <item name="palette">@drawable/ic_palette_white_24dp</item>
+        <item name="language">@drawable/ic_language_white_24dp</item>
+        <item name="history">@drawable/ic_history_white_24dp</item>
+        <item name="drag_handle">@drawable/ic_drag_handle_white_24dp</item>
+        <item name="selected">@drawable/ic_fiber_manual_record_white_24dp</item>
+        <item name="search_add">@drawable/ic_arrow_top_left_white_24dp</item>
+        <item name="options">@drawable/ic_more_vert_white_24dp</item>
+        <item name="play">@drawable/ic_play_arrow_white_24dp</item>
+        <item name="settings">@drawable/ic_settings_white_24dp</item>
+        <item name="ic_hot">@drawable/ic_whatshot_white_24dp</item>
+        <item name="ic_channel">@drawable/ic_channel_white_24dp</item>
+        <item name="ic_bookmark">@drawable/ic_bookmark_white_24dp</item>
+        <item name="ic_bookmark_border">@drawable/ic_bookmark_border_white</item>
+        <item name="ic_playlist_add">@drawable/ic_playlist_add_white_24dp</item>
+        <item name="ic_playlist_check">@drawable/ic_playlist_add_check_white_24dp</item>
+        <item name="ic_import_export">@drawable/ic_import_export_white_24dp</item>
+        <item name="ic_save">@drawable/ic_save_white_24dp</item>
+        <item name="ic_backup">@drawable/ic_backup_white_24dp</item>
+        <item name="ic_add">@drawable/ic_add_white_24dp</item>
+        <item name="ic_restore_defaults">@drawable/ic_settings_backup_restore_white_24dp</item>
+        <item name="ic_blank_page">@drawable/ic_blank_page_white_24dp</item>
+        <item name="ic_list">@drawable/ic_list_white_24dp</item>
+        <item name="ic_grid">@drawable/ic_grid_white_24dp</item>
+        <item name="ic_delete">@drawable/ic_delete_white_24dp</item>
+        <item name="ic_settings_update">@drawable/ic_settings_update_white</item>
+        <item name="ic_star">@drawable/ic_star_white</item>
+        <item name="ic_star_border">@drawable/ic_star_border_white</item>
+        <item name="ic_edit">@drawable/ic_edit_white</item>
+        <item name="ic_time">@drawable/ic_access_time_white</item>
+        <item name="ic_lock">@drawable/ic_lock_white</item>
+        <item name="ic_lock_open">@drawable/ic_lock_open_white</item>
+        <item name="ic_lock_border">@drawable/ic_lock_border_white</item>
+        <item name="ic_link">@drawable/ic_link_white</item>
+
+        <item name="separator_color">@color/dark_separator_color</item>
+        <item name="contrast_background_color">@color/dark_contrast_background_color</item>
+        <item name="checked_selector_drawable">@drawable/dark_checked_selector</item>
+        <item name="queue_background_color">@color/dark_queue_background_color</item>
+        <item name="toolbar_shadow_drawable">@drawable/toolbar_shadow_dark</item>
+        <item name="selector_drawable">@drawable/dark_selector</item>
+        <item name="colorControlHighlight">@color/dark_ripple_color</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="BlackTheme" parent="DarkTheme">
+        <item name="android:windowBackground">@color/black_background_color</item>
+        <item name="windowBackground">@color/black_background_color</item>
+
+        <item name="separator_color">@color/black_separator_color</item>
+        <item name="contrast_background_color">@color/black_contrast_background_color</item>
+    </style>
+
+    <style name="RedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/subscribe_background_color</item>
+        <item name="android:textColor">@color/subscribe_text_color</item>
+        <item name="colorControlHighlight">@color/dark_ripple_color</item>
+    </style>
+
+    <!-- Settings -->
+    <style name="LightSettingsTheme" parent="LightTheme">
+        <item name="colorAccent">@color/light_settings_accent_color</item>
+    </style>
+
+    <style name="DarkSettingsTheme" parent="DarkTheme">
+        <item name="colorAccent">@color/dark_settings_accent_color</item>
+    </style>
+
+    <style name="BlackSettingsTheme" parent="BlackTheme">
+        <item name="colorAccent">@color/black_settings_accent_color</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:windowBackground">@color/dark_background_color</item>
+        <item name="windowBackground">@color/dark_background_color</item>
+
+        <item name="separator_color">@color/dark_separator_color</item>
+        <item name="contrast_background_color">@color/dark_contrast_background_color</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:windowBackground">@color/light_background_color</item>
+        <item name="windowBackground">@color/light_background_color</item>
+
+        <item name="separator_color">@color/light_separator_color</item>
+        <item name="contrast_background_color">@color/light_contrast_background_color</item>
+    </style>
+
+</resources>

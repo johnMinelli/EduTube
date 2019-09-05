@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share">Condividi</string>
+    <string name="settings">Impostazioni</string>
+
+    <string name="play_audio">Audio</string>
+    <string name="settings_category_video_audio_title">Video e Audio</string>
+    <string name="list_thumbnail_view_description">Miniatura anteprima video</string>
+    <string name="detail_uploader_thumbnail_view_description">Miniatura dell\'immagine di profilo dell\'utente</string>
+    <string name="detail_dislikes_img_view_description">Non mi piace</string>
+    <string name="detail_likes_img_view_description">Mi piace</string>
+
+    <string name="switch_notification_title">Abilita notifica giornaliera</string>
+    <string name="theme_title">Tema</string>
+    <string name="dark_theme_title">Scuro</string>
+    <string name="light_theme_title">Chiaro</string>
+    <string name="settings_category_appearance_title">Aspetto</string>
+    <string name="settings_category_other_title">Altro</string>
+    <string name="general_error">Errore</string>
+    <string name="network_error">Errore di connessione</string>
+    <string name="content">Contenuti</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="retry">Riprova</string>
+    <string name="storage_permission_denied">È stato negato il permesso di accesso all\'archiviazione di massa</string>
+    <string name="black_theme_title">Nero</string>
+    <string name="all">Tutto</string>
+    <string name="creators">Creatori</string>
+    <string name="uploaders">Creatori Video</string>
+    <string name="creator">Creatore</string>
+    <string name="uploader">Creatore Video</string>
+    <string name="contents">Articoli</string>
+    <string name="comments">Commenti</string>
+    <string name="short_thousand">K</string>
+    <string name="short_million">M</string>
+    <string name="short_billion">B</string>
+    <string name="yes">Sì</string>
+    <string name="later">Più tardi</string>
+    <string name="disabled">Disattivato</string>
+    <string name="controls_lock_title">Blocca</string>
+    <string name="settings_category_popup_title">Popup</string>
+    <string name="filter">Filtra i risultati</string>
+    <string name="refresh">Ricarica</string>
+    <string name="enable_watch_history_title">Cronologia &amp; Cache</string>
+    <string name="history_empty">La cronologia è vuota</string>
+    <string name="settings_category_player_behavior_title">Comportamento</string>
+    <string name="settings_category_history_title">Cronologia e cache</string>
+    <string name="search_no_results">Nessun risultato</string>
+
+    <string name="no_contents">Nessun contenuto disponibile</string>
+    <plurals name="contents">
+        <item quantity="one">%s ontenuto disponibile</item>
+        <item quantity="other">%s ontenuti disponibili</item>
+    </plurals>
+    <string name="empty_view_subtitle">Nulla da mostrare</string>
+    <string name="select_a_category">Seleziona una categoria</string>
+    <string name="show_info">Mostra informazioni</string>
+    <string name="add_to_bookmarks">Aggiungi ai preferiti</string>
+    <string name="clear">Annulla</string>
+
+    <string name="append_playlist">Aggiunti alla playlist</string>
+    <string name="unbookmark_playlist">Rimuovi preferito</string>
+    <string name="import_export_title">Importa/esporta</string>
+    <string name="import_title">Importa</string>
+    <string name="import_from">Importa da</string>
+    <string name="export_to">Esporta in</string>
+    <string name="import_ongoing">Importando…</string>
+    <string name="export_ongoing">Esportando…</string>
+    <string name="import_file_title">Importa file</string>
+    <string name="subscriptions_import_unsuccessful">Impossibile importare le iscrizioni</string>
+    <string name="subscriptions_export_unsuccessful">Impossibile esportare le iscrizioni</string>
+    <string name="clear_views_history_title">Pulisci cronologia visualizzazioni</string>
+    <string name="clear_views_history_summary">Elimina la cronologia dei flussi riprodotti</string>
+    <string name="delete_view_history_alert">Elimina l\'intera cronologia delle visualizzazioni\?</string>
+    <string name="view_history_deleted">Cronologia visualizzazioni eliminata.</string>
+    <string name="users">Utenti</string>
+    <string name="tab_main">Home</string>
+    <string name="tab_subscriptions">Iscrizioni</string>
+    <string name="tab_bookmarks">Preferiti</string>
+    <string name="tab_history">Cronologia</string>
+    <string name="tab_edit">Miei contenuti</string>
+    <string name="tab_new">Nuova scheda</string>
+    <string name="fragment_whats_new">Novità</string>
+    <string name="tab_choose">Scegli scheda</string>
+    <string name="list_view_mode">Visualizzazione a lista</string>
+    <string name="list">Lista</string>
+    <string name="grid">Griglia</string>
+    <string name="auto">Automatico</string>
+    <string name="switch_view">Cambia vista</string>
+    <string name="events">Eventi</string>
+    <string name="format_creator">da %s</string>
+
+</resources>

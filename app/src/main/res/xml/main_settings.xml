@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="general_preferences"
+    android:title="Settings">
+
+    <androidx.preference.ListPreference
+        app:iconSpaceReserved="false"
+        android:icon="?attr/palette"
+        android:defaultValue="@string/default_theme_value"
+        android:entries="@array/theme_description_list"
+        android:entryValues="@array/theme_values_list"
+        android:key="@string/theme_key"
+        android:summary="%s"
+        android:title="@string/theme_title"/>
+
+    <androidx.preference.SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
+        android:icon="?attr/bug"
+        android:defaultValue="false"
+        android:key="@string/role_key"
+        android:title="@string/switch_creator_title"/>
+
+    <androidx.preference.Preference
+        app:iconSpaceReserved="false"
+        android:icon="?attr/ic_settings_update"
+        android:key="@string/caption_settings_key"
+        android:title="Sync Youtube subscriptions"
+        android:summary="Update your preference with Youtube subs"/>
+
+    <androidx.preference.SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
+        android:icon="?attr/popup"
+        android:defaultValue="false"
+        android:key="@string/notification_key"
+        android:title="@string/switch_notification_title"/>
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="last_orientation_landscape_key" translatable="false">last_orientation_landscape_key</string>
+
+    <string name="last_resize_mode" translatable="false">last_resize_mode</string>
+
+    <!-- THEMES -->
+    <string name="role_key" translatable="false">role</string>
+    <string name="notification_key" translatable="false">notification</string>
+    <string name="theme_key" translatable="false">theme</string>
+    <string name="light_theme_key" translatable="false">light_theme</string>
+    <string name="dark_theme_key" translatable="false">dark_theme</string>
+    <string name="black_theme_key" translatable="false">black_theme</string>
+    <string name="default_theme_value" translatable="false">@string/dark_theme_key</string>
+    <string-array name="theme_values_list" translatable="false">
+        <item>@string/light_theme_key</item>
+        <item>@string/dark_theme_key</item>
+        <item>@string/black_theme_key</item>
+    </string-array>
+    <string-array name="theme_description_list" translatable="false">
+        <item>@string/light_theme_title</item>
+        <item>@string/dark_theme_title</item>
+        <item>@string/black_theme_title</item>
+    </string-array>
+
+    <!-- Caption Size -->
+    <string name="caption_settings_key" translatable="false">caption_settings_key</string>
+
+    <string name="show_info_key" translatable="false">show_info</string>
+    <string name="add_to_bookmarks_key" translatable="false">add_to_bookmarks</string>
+
+    <string-array name="preferred_open_action_description_list" translatable="false">
+        <item>@string/show_info</item>
+        <item>@string/add_to_bookmarks</item>
+    </string-array>
+    <string-array name="preferred_open_action_values_list" translatable="false">
+        <item>@string/show_info_key</item>
+        <item>@string/add_to_bookmarks_key</item>
+    </string-array>
+
+    <string name="list_view_mode_key" translatable="false">list_view_mode</string>
+    <string name="list_view_mode_value" translatable="false">list</string>
+
+    <string-array name="list_view_mode_values" translatable="false">
+        <item>auto</item>
+        <item>list</item>
+        <item>grid</item>
+    </string-array>
+    <string-array name="list_view_mode_description" translatable="false">
+        <item>@string/auto</item>
+        <item>@string/list</item>
+        <item>@string/grid</item>
+    </string-array>
+
+</resources>
