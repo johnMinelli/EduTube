@@ -43,7 +43,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
     val themePreferenceChange = SharedPreferences.OnSharedPreferenceChangeListener(fun(sharedPref : SharedPreferences, key: String){
         when(key){
             Constants().KEY_THEME -> {
-                var newTheme = actualTheme;
+                var newTheme = actualTheme
                 newTheme = sharedPref.getString(key, newTheme)!!
                 if (!newTheme.equals(actualTheme)) {
                     activity?.recreate()
