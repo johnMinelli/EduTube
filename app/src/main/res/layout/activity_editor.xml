@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:aztec="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <org.wordpress.aztec.toolbar.AztecToolbar
+        android:id="@+id/formatting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aztec_format_bar_height"
+        android:layout_alignParentBottom="true">
+    </org.wordpress.aztec.toolbar.AztecToolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/formatting_toolbar"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <org.wordpress.aztec.AztecText
+                android:id="@+id/aztec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|start"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:scrollbars="vertical"
+                android:imeOptions="flagNoExtractUi"
+                aztec:historyEnable="true"
+                aztec:historySize="10"
+                aztec:codeColor="@color/text_editor"
+                aztec:textColor="@color/light_youtube_accent_color"
+                aztec:codeBackground="@color/background_code"
+                aztec:preformatBackground="@color/background_code"
+                aztec:quoteBackground="@color/background_code"
+                aztec:quoteColor="@color/text_editor"
+                aztec:linkColor="@color/text_link"
+                aztec:linkUnderline="false"
+                aztec:bulletColor="@color/light_youtube_accent_color"
+                aztec:preformatColor="@color/text_editor"
+                aztec:textColorHint="@color/text_editor"
+                android:inputType="textFilter|textNoSuggestions|textMultiLine" />
+
+            <org.wordpress.aztec.source.SourceViewEditText
+                android:id="@+id/source"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|start"
+                android:hint="@string/source_hint"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:scrollbars="vertical"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:imeOptions="flagNoExtractUi"
+                aztec:codeBackgroundColor="@android:color/transparent"
+                aztec:codeTextColor="@color/light_youtube_accent_color"
+                aztec:tagColor="@color/light_youtube_primary_color"
+                aztec:attributeColor="@color/text_editor"/>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
